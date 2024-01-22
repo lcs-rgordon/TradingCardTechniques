@@ -16,7 +16,7 @@ struct LandingView: View {
                 } label: {
                     ListItemView(
                         effectName: "Rotation",
-                        effectPageReference: "Effect Modifiers, p. 857",
+                        pageReference: "Effect Modifiers, p. 857",
                         sfSymbolName: "rotate.right"
                     )
                 }
@@ -26,7 +26,7 @@ struct LandingView: View {
                 } label: {
                     ListItemView(
                         effectName: "Layers",
-                        effectPageReference: "SwiftUI Basics, p. 46",
+                        pageReference: "SwiftUI Basics, p. 46",
                         sfSymbolName: "square.3.layers.3d"
                     )
                 }

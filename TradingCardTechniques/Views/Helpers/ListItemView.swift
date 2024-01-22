@@ -11,14 +11,14 @@ struct ListItemView: View {
     
     // MARK: Stored properties
     let effectName: String
-    let effectPageReference: String
+    let pageReference: String
     let sfSymbolName: String
     
     // MARK: Computed properties
     var body: some View {
         HStack {
             
-            Image(systemName: "rotate.right")
+            Image(systemName: sfSymbolName)
                 .resizable()
                 .scaledToFit()
                 .frame(width: 25)
@@ -26,9 +26,9 @@ struct ListItemView: View {
             
             VStack {
                 VStack(alignment: .leading) {
-                    Text("Rotation")
+                    Text(effectName)
                         .font(.headline)
-                    Text("Effect Modifiers, p. 857")
+                    Text(pageReference)
                 }
             }
             
@@ -39,7 +39,7 @@ struct ListItemView: View {
 #Preview {
     ListItemView(
         effectName: "Rotation",
-        effectPageReference: "Effect Modifiers, p. 857",
+        pageReference: "Effect Modifiers, p. 857",
         sfSymbolName: "rotate.right"
     )
 }

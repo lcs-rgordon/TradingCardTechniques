@@ -16,6 +16,7 @@
 		812BEA4B2B5E940500B8A8AB /* OverlaySolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812BEA4A2B5E940500B8A8AB /* OverlaySolutionView.swift */; };
 		812BEA4D2B5E947100B8A8AB /* LayeringTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812BEA4C2B5E947100B8A8AB /* LayeringTabView.swift */; };
 		812BEA522B5E987D00B8A8AB /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812BEA512B5E987D00B8A8AB /* ListItemView.swift */; };
+		812BEA542B5E9B3200B8A8AB /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812BEA532B5E9B3200B8A8AB /* TipsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		812BEA4A2B5E940500B8A8AB /* OverlaySolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlaySolutionView.swift; sourceTree = "<group>"; };
 		812BEA4C2B5E947100B8A8AB /* LayeringTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayeringTabView.swift; sourceTree = "<group>"; };
 		812BEA512B5E987D00B8A8AB /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
+		812BEA532B5E9B3200B8A8AB /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				812BEA512B5E987D00B8A8AB /* ListItemView.swift */,
+				812BEA532B5E9B3200B8A8AB /* TipsView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -196,6 +199,7 @@
 				812BEA522B5E987D00B8A8AB /* ListItemView.swift in Sources */,
 				812BEA4D2B5E947100B8A8AB /* LayeringTabView.swift in Sources */,
 				812BEA452B5E8F2000B8A8AB /* LandingView.swift in Sources */,
+				812BEA542B5E9B3200B8A8AB /* TipsView.swift in Sources */,
 				812BEA492B5E936000B8A8AB /* ZStackProblemView.swift in Sources */,
 				812BEA352B5E8EF300B8A8AB /* TradingCardTechniquesApp.swift in Sources */,
 				812BEA4B2B5E940500B8A8AB /* OverlaySolutionView.swift in Sources */,

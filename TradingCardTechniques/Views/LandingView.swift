@@ -33,6 +33,17 @@ struct LandingView: View {
                         )
                     }
 
+                    NavigationLink {
+                        GradientTextView()
+                    } label: {
+                        ListItemView(
+                            effectName: "Gradient Text",
+                            pageReference: "Effect Modifiers, p. 846",
+                            sfSymbolName: "textformat"
+                        )
+                    }
+
+                    
                 }
                 .navigationTitle("Techniques")
 

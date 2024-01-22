@@ -11,7 +11,12 @@ struct LandingView: View {
     var body: some View {
         NavigationStack {
             List {
-                Text("This will hold a list of examples")
+                NavigationLink {
+                    RotationEffectView()
+                } label: {
+                    Text("↗️ Rotation")
+                }
+
             }
             .navigationTitle("Techniques")
         }

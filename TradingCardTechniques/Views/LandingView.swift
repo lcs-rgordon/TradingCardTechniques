@@ -14,40 +14,21 @@ struct LandingView: View {
                 NavigationLink {
                     RotationEffectView()
                 } label: {
-                    HStack {
-                        
-                        Image(systemName: "rotate.right")
-                            .resizable()
-                            .scaledToFit()
-                            .frame(width: 25)
-                            .padding(.trailing, 15)
-                        
-                        VStack {
-                            VStack(alignment: .leading) {
-                                Text("Rotation")
-                                    .font(.headline)
-                                Text("Effect Modifiers, p. 857")
-                            }
-                        }
-                        
-                    }
+                    ListItemView(
+                        effectName: "Rotation",
+                        effectPageReference: "Effect Modifiers, p. 857",
+                        sfSymbolName: "rotate.right"
+                    )
                 }
                 
                 NavigationLink {
                     LayeringTabView()
                 } label: {
-                    
-                    Image(systemName: "square.3.layers.3d")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 25)
-                        .padding(.trailing, 15)
-
-                    VStack(alignment: .leading) {
-                        Text("Layers")
-                            .font(.headline)
-                        Text("SwiftUI Basics, p. 46")
-                    }
+                    ListItemView(
+                        effectName: "Layers",
+                        effectPageReference: "SwiftUI Basics, p. 46",
+                        sfSymbolName: "square.3.layers.3d"
+                    )
                 }
 
 

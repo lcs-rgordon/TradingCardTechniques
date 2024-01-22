@@ -15,6 +15,7 @@
 		812BEA492B5E936000B8A8AB /* ZStackProblemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812BEA482B5E936000B8A8AB /* ZStackProblemView.swift */; };
 		812BEA4B2B5E940500B8A8AB /* OverlaySolutionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812BEA4A2B5E940500B8A8AB /* OverlaySolutionView.swift */; };
 		812BEA4D2B5E947100B8A8AB /* LayeringTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812BEA4C2B5E947100B8A8AB /* LayeringTabView.swift */; };
+		812BEA522B5E987D00B8A8AB /* ListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812BEA512B5E987D00B8A8AB /* ListItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		812BEA482B5E936000B8A8AB /* ZStackProblemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStackProblemView.swift; sourceTree = "<group>"; };
 		812BEA4A2B5E940500B8A8AB /* OverlaySolutionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlaySolutionView.swift; sourceTree = "<group>"; };
 		812BEA4C2B5E947100B8A8AB /* LayeringTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayeringTabView.swift; sourceTree = "<group>"; };
+		812BEA512B5E987D00B8A8AB /* ListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				812BEA442B5E8F2000B8A8AB /* LandingView.swift */,
+				812BEA502B5E986C00B8A8AB /* Helpers */,
 				812BEA4E2B5E950100B8A8AB /* Rotation */,
 				812BEA4F2B5E950B00B8A8AB /* Layering */,
 			);
@@ -109,6 +112,14 @@
 				812BEA4A2B5E940500B8A8AB /* OverlaySolutionView.swift */,
 			);
 			path = Layering;
+			sourceTree = "<group>";
+		};
+		812BEA502B5E986C00B8A8AB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				812BEA512B5E987D00B8A8AB /* ListItemView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,6 +193,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				812BEA472B5E8F8900B8A8AB /* RotationEffectView.swift in Sources */,
+				812BEA522B5E987D00B8A8AB /* ListItemView.swift in Sources */,
 				812BEA4D2B5E947100B8A8AB /* LayeringTabView.swift in Sources */,
 				812BEA452B5E8F2000B8A8AB /* LandingView.swift in Sources */,
 				812BEA492B5E936000B8A8AB /* ZStackProblemView.swift in Sources */,

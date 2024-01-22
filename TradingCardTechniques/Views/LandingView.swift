@@ -14,8 +14,21 @@ struct LandingView: View {
                 NavigationLink {
                     RotationEffectView()
                 } label: {
-                    Text("↗️ Rotation")
+                    Label(
+                        "Rotation",
+                        systemImage: "rotate.right"
+                    )
                 }
+                
+                NavigationLink {
+                    LayeringTabView()
+                } label: {
+                    Label(
+                        "Layers",
+                        systemImage: "square.3.layers.3d"
+                    )
+                }
+
 
             }
             .navigationTitle("Techniques")

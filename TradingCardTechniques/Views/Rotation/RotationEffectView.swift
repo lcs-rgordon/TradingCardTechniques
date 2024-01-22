@@ -19,6 +19,7 @@ struct RotationEffectView: View {
             Spacer()
         }
         .navigationTitle("Rotation")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
